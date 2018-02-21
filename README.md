@@ -5,8 +5,11 @@ This is the R version of GuanRank.
 Example R code:
 
 source("guanrank.R")
+
 tbl=data.frame(time=c(430,257,185,298,506),status=c(0,1,0,1,0))
+
 rownames(tbl)=paste0("patient",1:5)
+
 tbl
 
 |          | time | status |
@@ -39,6 +42,7 @@ guanrank_elf(tbl) # new version
 
 
 To do:
+
 add document about these functions
 
 
